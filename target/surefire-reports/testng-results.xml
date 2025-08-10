@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-11T00:49:14 ACST" name="Surefire suite" finished-at="2025-08-11T00:49:31 ACST" duration-ms="17187">
+    <groups>
+    </groups>
+    <test started-at="2025-08-11T00:49:14 ACST" name="Surefire test" finished-at="2025-08-11T00:49:31 ACST" duration-ms="17187">
+      <class name="com.parabank.tests.ParaBankTests">
+        <test-method is-config="true" signature="setupClass()[pri:0, instance:com.parabank.tests.ParaBankTests@7219ec67]" started-at="2025-08-11T00:49:14 ACST" name="setupClass" finished-at="2025-08-11T00:49:18 ACST" duration-ms="4759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.parabank.tests.ParaBankTests@7219ec67]" started-at="2025-08-11T00:49:18 ACST" name="setupTest" finished-at="2025-08-11T00:49:21 ACST" duration-ms="2213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testFullUiFlow()[pri:1, instance:com.parabank.tests.ParaBankTests@7219ec67]" started-at="2025-08-11T00:49:21 ACST" name="testFullUiFlow" description="UI Scenarios 1-9: Full user flow" finished-at="2025-08-11T00:49:25 ACST" duration-ms="4595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFullUiFlow -->
+        <test-method is-config="true" signature="closeContext()[pri:0, instance:com.parabank.tests.ParaBankTests@7219ec67]" started-at="2025-08-11T00:49:25 ACST" name="closeContext" finished-at="2025-08-11T00:49:25 ACST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContext -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.parabank.tests.ParaBankTests@7219ec67]" started-at="2025-08-11T00:49:25 ACST" name="setupTest" finished-at="2025-08-11T00:49:27 ACST" duration-ms="1721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testFindTransactionByApi()[pri:2, instance:com.parabank.tests.ParaBankTests@7219ec67]" started-at="2025-08-11T00:49:27 ACST" name="testFindTransactionByApi" description="API Scenarios 1-2: Find and validate transaction" finished-at="2025-08-11T00:49:31 ACST" depends-on-methods="com.parabank.tests.ParaBankTests.testFullUiFlow" duration-ms="3523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindTransactionByApi -->
+        <test-method is-config="true" signature="closeContext()[pri:0, instance:com.parabank.tests.ParaBankTests@7219ec67]" started-at="2025-08-11T00:49:31 ACST" name="closeContext" finished-at="2025-08-11T00:49:31 ACST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContext -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.parabank.tests.ParaBankTests@7219ec67]" started-at="2025-08-11T00:49:31 ACST" name="closeBrowser" finished-at="2025-08-11T00:49:31 ACST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.parabank.tests.ParaBankTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

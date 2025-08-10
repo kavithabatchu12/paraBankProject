@@ -1,0 +1,10 @@
+com\parabank\pages\BillPayPage.class
+com\parabank\pages\HomePage.class
+com\parabank\pages\BasePage.class
+com\parabank\tests\ParaBankTests.class
+com\parabank\pages\AccountsOverviewPage.class
+com\parabank\pages\TransferFundsPage.class
+com\parabank\utils\TestUtils.class
+com\parabank\utils\ConfigReader.class
+com\parabank\pages\RegisterPage.class
+com\parabank\pages\OpenAccountPage.class
